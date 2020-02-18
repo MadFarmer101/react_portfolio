@@ -6,7 +6,7 @@ const About = () => {
         <div classname="ui main container">
             <div class="ui stackable two column grid">
                 <div class="column">
-                    <UndrawOnTheOffice />
+                    <UndrawOnTheOffice primaryColor='#12283a' height='300px'/>
                 </div>
                 <div class="column">
                     <h1 id="about-header" className="ui header">About Me</h1>
