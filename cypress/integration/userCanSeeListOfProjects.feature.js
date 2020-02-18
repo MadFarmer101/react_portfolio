@@ -8,7 +8,7 @@ describe('User can see list of projects', () => {
         cy.get('#project-1').within(() => {
             cy.get(('.image')).should('exist');
             cy.get('.ui.header').should('contain', 'BMI Calculator');
-            cy.get('.description').should('contain', 'This was my first application. Please do not sue me! ');
+            cy.get('.description').should('contain', 'This was my first application. Please do not sue me!');
         })
     });
 
