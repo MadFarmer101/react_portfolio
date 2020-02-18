@@ -1,21 +1,9 @@
 import React, { Component } from "react";
+import axios from "axios";
 
 class Projects extends Component {
     state = {
-        projects: [
-            {
-                id: 1,
-                name: "BMI Calculator"
-            },
-            {
-                id: 2,
-                name: "Address Book"
-            },
-            {
-                id: 3,
-                name: "ATM App"
-            }
-        ]
+        projects: []
     };
 
     render() {
