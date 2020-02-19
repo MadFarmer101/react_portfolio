@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "BMI Calculator", 
-        "image": "./src/images/BMI.png",
+        "image": "./src/images/bmi.jpg",
         "description": "This was my first application. Please do not sue me!",
         "url": "https://madfarmer101.github.io/bmi_calculator_JavaScript/"
     },

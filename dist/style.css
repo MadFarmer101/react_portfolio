@@ -31,19 +31,12 @@
 
   #card {
     width: 200px;
-    height: 445px;
+    height: 325px;
     border: solid;
     border-width: 5px;
 }
 
-.image {
 
-  width: auto;
-  max-width: 250px;
-  height: auto;
-  max-height: 250px;
- 
-}
 
  
 
