@@ -32,8 +32,6 @@
   #card {
     width: 200px;
     height: 445px;
-    
-
     border: solid;
     border-width: 5px;
 }
@@ -44,10 +42,7 @@
   max-width: 250px;
   height: auto;
   max-height: 250px;
-  font-size: 1rem;
-  background-size: 
-  background-position:
-  background-repeat: no-repeat;
+ 
 }
 
  
