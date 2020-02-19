@@ -1,8 +1,15 @@
 #navbar {
-  position: fixed;
-  padding: 0.5cm;
-  font-size: 18px;
+  padding: 0.3cm;
+  font-size: 17px;
   
+}
+
+#about-header {
+  margin-top: 3cm;
+}
+
+#ill-about {
+  margin-top: 7cm;
 }
 
 #footer {
