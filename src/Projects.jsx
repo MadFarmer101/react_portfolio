@@ -34,8 +34,8 @@ class Projects extends Component {
         return (
             <div className="ui main container">
                 <div className="ui stackable two column grid">
-                    <div className="column">
-                        <UndrawCreativity primaryColor='#12283a' height='200px' />
+                    <div className="column" id="ill-projects">
+                        <UndrawCreativity primaryColor='#8b4513' height='250px' />
                     </div>
                     <div className="column">
                         <h1 id="projects-header" className="ui header">My Projects</h1>
