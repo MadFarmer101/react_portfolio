@@ -1,3 +1,10 @@
+#navbar {
+  position: fixed;
+  padding: 0.5cm;
+  font-size: 18px;
+  
+}
+
 #footer {
     position: relative;
     bottom: 0;

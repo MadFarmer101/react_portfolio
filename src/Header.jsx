@@ -3,12 +3,13 @@ import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
     return (
-      <nav className="ui fixed inverted menu">
+      <nav className="ui fixed inverted menu" id="navbar">
         <div className="ui container">
             <Link id="header" className="header item" to="/">
                 My Portfolio
             </Link>
             <div className="right menu">
+            <div className="ui inverted secondary pointing menu">
                 <NavLink
                     id="about-tab"
                     className="ui item"
@@ -25,6 +26,7 @@ const Header = () => {
                 >
                     Projects
                 </NavLink>
+                </div>
             </div>
         </div>
       </nav>
