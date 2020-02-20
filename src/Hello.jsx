@@ -1,15 +1,30 @@
 import React from "react";
 
 const Hello = () => {
+  let audio = new Audio("./src/music/madness.mp3")
+
+  const start = () => {
+    audio.play()
+  }
+
+  const pause = () => {
+    audio.pause()
+  }
     return (
       <div className="ui main container" id="hello">
-          <div class="ui stackable two column grid">
+          <div class="ui stackable three column grid">
             <div className="column">
               <img src="./src/images/birds.jpg" id="birds"/>
             </div>
             <div className="column">
               <img src="./src/images/guy.png" id="guy"/>
             </div>
+            <button class="ui icon button"  onClick={start}>
+          <i class="music icon"></i>
+        </button>
+        <button class="ui icon button" onClick={pause}>
+          <i class="pause circle icon"></i>
+        </button>
         </div>
       </div>
     );
