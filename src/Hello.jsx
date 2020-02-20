@@ -1,7 +1,7 @@
 import React from "react";
 
-function Hello = () => {
-  let audio = new Audio("./src/music/madness.mp3")
+const Hello = () => {
+  let audio = new Audio("./src/music/streetlife.mp3")
 
   const start = () => {
     audio.play()
@@ -12,9 +12,18 @@ function Hello = () => {
   }
     return (
       <div className="ui main container" id="hello">
-          <div class="ui stackable three column grid">
+          <div class="ui stackable eight column grid">
             <div className="column">
               <img src="./src/images/birds.jpg" id="birds"/>
+            </div>
+            <div className="column">
+              <img src="./src/images/crack.png" id="crack"/>
+            </div>
+            <div className="column">
+              <img src="./src/images/grafit.png" id="grafit"/>
+            </div>
+            <div className="column">
+              <img src="./src/images/crack.png" id="crack2"/>
             </div>
             <div className="column">
               <img src="./src/images/guy.png" id="guy"/>

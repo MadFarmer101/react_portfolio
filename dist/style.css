@@ -58,7 +58,7 @@ a:hover {
   position: relative;
   height: 500px;
   margin-top: 1.2rem; 
-  margin-left: 27rem;
+  margin-left: 15rem;
  
 }
 
@@ -68,18 +68,39 @@ a:hover {
   margin-top: 1rem;
 }
 
+#grafit {
+  height: 220px;
+  margin-left: 11rem;
+  margin-top: 14rem;
+}
+
+#crack {
+  height: 200px;
+  margin-left: 8rem;
+  margin-top: -2rem;
+}
+
+#crack2 {
+  height: 150px;
+  margin-left: 15rem;
+  margin-top: 18rem;
+}
+
 .icon.button {
   color: black;
   background-color: white;
   height: 40px;
   margin-top: 18.2rem;
-  margin-left: 9.5rem;
+  margin-left: 15rem;
+  margin-right: -13rem;
 }
 
 .icon.button:hover{
   color: white;
   background-color: black;
 }
+
+
 
 
 
