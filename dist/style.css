@@ -76,6 +76,11 @@ a:hover {
   margin-left: 9.5rem;
 }
 
+.icon.button:hover{
+  color: white;
+  background-color: black;
+}
+
 
 
 

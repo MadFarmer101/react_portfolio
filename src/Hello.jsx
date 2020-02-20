@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hello = () => {
+function Hello = () => {
   let audio = new Audio("./src/music/madness.mp3")
 
   const start = () => {
