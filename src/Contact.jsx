@@ -23,36 +23,43 @@ class Contact extends React.Component {
     handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
     render() {
-      const { name, email, message, company, phone } = this.state;
+      const { name, email, company, phone } = this.state;
       return (
-        <form onSubmit={this.handleSubmit}>
+        <form id="form" onSubmit={this.handleSubmit}>
           <p>
             <label>
-              Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
+            <i class="address book icon"></i> <input type="text" name="name" placeholder="Your name..." value={name} onChange={this.handleChange} required/>
             </label>
           </p>
           <p>
             <label>
-              Company: <input type="text" name="company" value={company} onChange={this.handleChange} />
+            <i class="building icon"></i> <input type="text" name="company" placeholder="Your company..." value={company} onChange={this.handleChange} />
             </label>
           </p>
           <p>
             <label>
-              Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
+            <i class="envelope icon"></i> <input type="email" name="email" placeholder="Your email..." value={email} onChange={this.handleChange} required/>
             </label>
           </p>
           <p>
             <label>
-              Phone: <input type="text" name="phone" value={phone} onChange={this.handleChange} />
+            <i class="phone icon"></i><input type="text" name="phone" placeholder="Your phone..." value={phone} onChange={this.handleChange} />
             </label>
           </p>
           <p>
             <label>
-              Message: <textarea name="message" value={message} onChange={this.handleChange} />
+            <i class="bullhorn icon"></i><textarea name="message">
+                Congratulations! You're Hired! ;)
+            </textarea>
             </label>
           </p>
           <p>
-            <button type="submit">Send</button>
+          <button class="ui animated button" type="submit" tabindex="0">
+  <         div class="visible content">Send</div>
+            <div class="hidden content">
+                <i class="paper plane icon"></i>
+            </div>
+          </button>
           </p>
         </form>
       );
