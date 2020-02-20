@@ -6,10 +6,13 @@
 
 #about-header {
   margin-top: 3cm;
+  
 }
 
 #ill-about {
-  margin-top: 7cm;
+  margin-top: 22rem;
+  position: relative;
+  
 }
 
 #projects-header {
@@ -113,6 +116,11 @@ a:hover {
 
 .animated.button {
   font-size: 20px;
+}
+
+.labeled.icon.button {
+  
+  
 }
 
 
