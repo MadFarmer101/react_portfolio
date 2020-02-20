@@ -17,6 +17,7 @@ class Projects extends Component {
           })
       }
 
+
     render() {
         const projects = this.state.projects;
         let projectsList;
@@ -31,6 +32,17 @@ class Projects extends Component {
             });
         }
 
+
+      let audio = new Audio("./src/music/madness.mp3")
+
+      const start = () => {
+        audio.play()
+      }
+    
+      const pause = () => {
+        audio.pause()
+      }
+
         return (
             <div className="ui main container">
                 <div className="ui stackable two column grid">
@@ -42,6 +54,14 @@ class Projects extends Component {
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia porro cumque consequuntur at voluptates ut eum ab exercitationem, iusto hic, praesentium molestiae quae tenetur dicta velit assumenda reiciendis dolore ad.  
                         </p>
+                        <button class="ui labeled icon button" onClick={start}>
+                    <i class="play icon"></i>
+                        Play
+                </button>
+                <button class="ui right labeled icon button" onClick={pause}>
+                    <i class="pause icon"></i>
+                        Pause
+                </button>
                     </div>
                 </div>
                 <div className="ui stackable four column grid">{projectsList}</div>
