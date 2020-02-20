@@ -29,11 +29,11 @@ const Hello = () => {
               <img src="./src/images/guy.png" id="guy"/>
             </div>
             <button class="ui icon button"  onClick={start}>
-          <i class="music icon"></i>
-        </button>
-        <button class="ui icon button" onClick={pause}>
-          <i class="pause circle icon"></i>
-        </button>
+              <i class="music icon"></i>
+            </button>
+            <button class="ui icon button" onClick={pause}>
+              <i class="pause circle icon"></i>
+            </button>
         </div>
       </div>
     );
