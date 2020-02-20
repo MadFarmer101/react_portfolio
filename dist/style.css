@@ -12,6 +12,14 @@
   margin-top: 7cm;
 }
 
+#projects-header {
+  margin-top: 0.8cm;
+}
+
+#ill-projects {
+  margin-top: 3cm;
+}
+
 #footer {
     position: relative;
     bottom: 0;
@@ -25,25 +33,81 @@
     text-align: center;
   }
 
-  .main.container {
+.main.container {
     margin-top: 6em;
   }
 
-  #card {
+#card {
     width: 200px;
-    height: 445px;
+    height: 325px;
     border: solid;
     border-width: 5px;
+    border-color: #8B4513;
+    background-color: #FAEBD7;
 }
 
-.image {
+a {
+  color: #8B4513;
+}
 
-  width: auto;
-  max-width: 250px;
-  height: auto;
-  max-height: 250px;
+a:hover {
+  color: rgb(139, 19, 25);
+}
+
+#guy {
+  position: relative;
+  height: 500px;
+  margin-top: 1.2rem; 
+  margin-left: 15rem;
  
 }
+
+#birds {
+  height: 500px;
+  margin-left: -13rem;
+  margin-top: 1rem;
+}
+
+#grafit {
+  height: 220px;
+  margin-left: 11rem;
+  margin-top: 14rem;
+}
+
+#crack {
+  height: 200px;
+  margin-left: 8rem;
+  margin-top: -2rem;
+}
+
+#crack2 {
+  height: 150px;
+  margin-left: 15rem;
+  margin-top: 18rem;
+}
+
+.icon.button {
+  color: black;
+  background-color: white;
+  height: 40px;
+  margin-top: 18.2rem;
+  margin-left: 15rem;
+  margin-right: -13rem;
+}
+
+.icon.button:hover{
+  color: white;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
 
  
 

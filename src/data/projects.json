@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "BMI Calculator", 
-        "image": "./src/images/BMI.png",
+        "image": "./src/images/bmi.jpg",
         "description": "This was my first application. Please do not sue me!",
         "url": "https://madfarmer101.github.io/bmi_calculator_JavaScript/"
     },
@@ -19,5 +19,19 @@
         "image":"./src/images/atm.jpg",
         "description":"Need some cash? Or even better, wanna deposit some cash into my super secure ATM? Please, be my guest. That is why it is here...",
         "url": "https://github.com/MadFarmer101/ATM_Challenge.git"
+    },
+    {
+        "id": 4,
+        "name": "Library App",
+        "image":"./src/images/books.jpg",
+        "description":"Do you consider yourself to be a bookworm? Great! This app is for you. We have more than 3 titles to choose from... ",
+        "url": "https://github.com/MadFarmer101/library-challenge.git"
+    },
+    {
+        "id": 5,
+        "name": "Blog App",
+        "image":"./src/images/blog.jpg",
+        "description":"Are you a struggling writer? With this state of the art Blog App you can struggle even more...",
+        "url": "https://github.com/MadFarmer101/AUT_challenge.git"
     }
 ]
