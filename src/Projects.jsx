@@ -52,7 +52,9 @@ class Projects extends Component {
                     <div className="column">
                         <h1 id="projects-header" className="ui header">My Projects</h1>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia porro cumque consequuntur at voluptates ut eum ab exercitationem, iusto hic, praesentium molestiae quae tenetur dicta velit assumenda reiciendis dolore ad.  
+                        Here you can see a list of projects I’ve done so far. If you would like to know more about particular project, just click on the card and you can browse the projecet’s web or GitHub page. 
+                        The project cards are in chronological order, so you’ll be able to see how I’ve progressed since I started this adventure.
+                        Happy browsing...:)  
                         </p>
                         <button class="ui labeled icon button" onClick={start}>
                     <i class="play icon"></i>

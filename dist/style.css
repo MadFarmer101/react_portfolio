@@ -6,17 +6,26 @@
 
 #about-header {
   margin-top: 3cm;
+  font-family: 'Lacquer', sans-serif;
+  font-size: 35px;
   
 }
 
+p {
+  font-family: 'Special Elite', cursive;
+  font-size: 19px;
+}
+
 #ill-about {
-  margin-top: 22rem;
-  position: relative;
+  margin-top: 20rem;
+  
   
 }
 
 #projects-header {
   margin-top: 0.8cm;
+  font-family: 'Lacquer', sans-serif;
+  font-size: 35px;
 }
 
 #ill-projects {
@@ -119,6 +128,7 @@ a:hover {
 }
 
 .labeled.icon.button {
+  
   
   
 }
