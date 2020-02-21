@@ -1,5 +1,5 @@
 import React from "react"
-//import NetlifyForm from 'react-netlify-form'
+import NetlifyForm from 'react-netlify-form'
 
 class Contact extends React.Component {
     constructor(props) {
@@ -54,12 +54,12 @@ class Contact extends React.Component {
             </label>
           </p>
           <p>
-          <button class="ui animated button" type="submit" tabindex="0">
-  <         div class="visible content">Send</div>
-            <div class="hidden content">
+            <button class="ui animated button" type="submit" tabindex="0">
+              <div class="visible content">Send</div>
+              <div class="hidden content">
                 <i class="paper plane icon"></i>
-            </div>
-          </button>
+              </div>
+            </button>
           </p>
         </form>
       );
