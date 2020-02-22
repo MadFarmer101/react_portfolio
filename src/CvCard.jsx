@@ -7,9 +7,8 @@ const CvCard = ({ info }) => {
         <div class="ui slide masked reveal image">
           <img src={info.image} class="visible content" />
           <div class="hidden content">
-          <h3 class="ui header">{info.name}</h3>
-          
-          <p class="descrition">{info.description}</p>
+            <h3 class="ui header">{info.name}</h3>
+            <p class="description">{info.description}</p>
           </div>
         </div>
       </div>
