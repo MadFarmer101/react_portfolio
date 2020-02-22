@@ -4,11 +4,21 @@
   
 }
 
-#about-header {
+#cvcard-header {
   margin-top: 3cm;
   font-family: 'Lacquer', sans-serif;
   font-size: 35px;
   
+}
+
+ #cvcards {
+  margin-top: 2rem;
+
+}
+
+.hidden.content {
+  background-color: black;
+  padding-bottom: 15rem !important;
 }
 
 p {
@@ -16,11 +26,18 @@ p {
   font-size: 19px;
 }
 
-#ill-about {
-  margin-top: 20rem;
-  
-  
+#cvheader {
+  padding-top: 2rem !important;
+  padding-left: 4rem !important;
+  color: white !important;
 }
+
+#cvdescription {
+  padding-left: 2rem !important;
+  color: white;
+  padding-right: 0.5rem;
+}
+
 
 #projects-header {
   margin-top: 0.8cm;

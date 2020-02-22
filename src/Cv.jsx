@@ -33,7 +33,7 @@ render() {
 
     return (
         <div className="ui main container">
-            <h1 id="cvcard-header" className="ui header">CV</h1>
+            <h1 id="cvcard-header" className="ui header">Curriculum Vitae</h1>
             <div className="ui stackable four column grid">{cvCardsList}</div>
         </div>
     );
