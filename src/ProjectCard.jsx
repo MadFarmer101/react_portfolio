@@ -3,15 +3,15 @@ import React from "react";
 const ProjectCard = ({ project }) => {
     return (
         <>
-            <div class="ui card" id="cards">
+            <a class="ui card" id="projectcards" href={project.url}>
                 <div class="ui slide masked reveal image">
                     <img src={project.image} class="visible content" />
-                    <div class="hidden content">
-                        <h3 class="ui header" id="card-header"><a href={project.url}>{project.name}</a></h3>
+                    <div id="cardtext" class="hidden content">
+                        <h3 class="ui header" id="card-header">{project.name}</h3>
                         <p class="description">{project.description}</p>
                     </div>
                 </div>
-            </div>
+            </a>
         </>
     );
 };

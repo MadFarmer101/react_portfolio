@@ -16,23 +16,18 @@
   height: 300px;
 }
 
- #cards {
+ #cvcards {
   margin-top: -15rem;
   margin-bottom: 16.8rem;
 
 }
 
-.hidden.content {
+#cardtext {
   background-color: black;
-  padding-bottom: 13rem !important;
+  padding-bottom: 20rem !important;
 }
 
-p {
-  font-family: 'Poiret One', cursive;
-  font-size: 19px;
-}
-
-#cvheader {
+h3 {
   padding-top: 2rem !important;
   padding-left: 4rem !important;
   color: white !important;
@@ -43,7 +38,9 @@ p {
   padding-left: 3.5rem !important;
 }
 
-#cvdescription {
+.description {
+  font-family: 'Poiret One', cursive;
+  font-size: 19px;
   padding-left: 2rem !important;
   color: white;
   padding-right: 0.5rem;
@@ -53,14 +50,23 @@ p {
 
 
 #projects-header {
-  margin-top: 0.8cm;
+  margin-top: 3cm;
   font-family: 'Lacquer', sans-serif;
   font-size: 35px;
 }
 
-#ill-projects {
-  margin-top: 3cm;
+#projectcards {
+  margin-top: -30rem;
+  margin-bottom: 32rem;
 }
+
+#baloon {
+  margin-left: 70rem;
+  margin-bottom: 0rem;
+  margin-top: -13rem;
+  
+}
+
 
 #footer {
     position: relative;
@@ -78,23 +84,6 @@ p {
 .main.container {
     margin-top: 6em;
   }
-
-#card {
-    width: 200px;
-    height: 325px;
-    border: solid;
-    border-width: 5px;
-    border-color: #8B4513;
-    background-color: #FAEBD7;
-}
-
-a {
-  color: #8B4513;
-}
-
-a:hover {
-  color: rgb(139, 19, 25);
-}
 
 #guy {
   position: relative;
@@ -155,9 +144,10 @@ a:hover {
 
 .animated.button {
   font-size: 20px;
+  
 }
 
-.labeled.icon.button {
+
   
   
   
