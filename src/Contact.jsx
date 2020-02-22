@@ -4,7 +4,7 @@ import React from "react"
 class Contact extends React.Component {
     constructor(props) {
       super(props);
-      this.state = { name: "", email: "", message: "" };
+      this.state = { name: "", email: "", message: "", company: "", phone: "" };
     }
 
 
@@ -54,12 +54,12 @@ class Contact extends React.Component {
             </label>
           </p>
           <p>
-          <button class="ui animated button" type="submit" tabindex="0">
-  <         div class="visible content">Send</div>
-            <div class="hidden content">
+            <button class="ui animated button" type="submit" tabindex="0">
+              <div class="visible content">Send</div>
+              <div class="hidden content">
                 <i class="paper plane icon"></i>
-            </div>
-          </button>
+              </div>
+            </button>
           </p>
         </form>
       );
