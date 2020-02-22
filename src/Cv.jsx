@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import CvCard from "./CvCard";
 
 
 class Cv extends Component {
@@ -24,16 +25,16 @@ render() {
         cvCardsList = cvcards.map(info => {
             return (
                 <div id={'info-' + info.id} key={info.id}>
-                    <h3 className="ui header">{info.name}</h3>
+                    <CvCard info={info} />
                 </div> 
-            )
+            );
         });   
     }
 
     return (
         <div className="ui main container">
-            <h1 id="cvcards-header" className="ui header">CV</h1>
-            {cvCardsList}
+            <h1 id="cvcard-header" className="ui header">CV</h1>
+            <div className="ui stackable four column grid">{cvCardsList}</div>
         </div>
     );
 }
