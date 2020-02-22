@@ -40,7 +40,7 @@ describe('User can see list of education and job experience', () => {
     it('displays first job experience', () => {
       cy.get('#info-4').within(() => {
         cy.get(('.image')).should('exist');
-        cy.get('.ui.header').should('contain', 'BestDeal');
+        cy.get('.ui.header').should('contain', 'BestDeal.hr');
         cy.get('.date').should('contain', '2010. - 2012.');
         cy.get('.description').should('contain', "Manager of a Startup");
         cy.get('.description').should('contain', "A website for online shopping");

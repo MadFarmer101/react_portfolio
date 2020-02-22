@@ -11,6 +11,10 @@ describe('User can navigate the app', () => {
       it('displays CV header', () => {
         cy.get('#cvcard-header').should('contain', 'Curriculum Vitae');
       });
+
+      it('displays an image in a CV header', () => {
+        cy.get('.image').should('exist');
+      });
   
       it('displays component name in url', () => {
         cy.url().should("contain", "cv");
