@@ -10,6 +10,10 @@ const CvCard = ({ info }) => {
             <h3 id="cvheader" class="ui header">{info.name}</h3>
             <span id="cvyear" class="date">{info.year}</span>
             <p id="cvdescription" class="description">{info.description}</p>
+            <p id="cvdescription" class="description">{info.description2}</p>
+            <p id="cvdescription" class="description">{info.description3}</p>
+            <p id="cvdescription" class="description">{info.description4}</p>
+            <p id="cvdescription" class="description">{info.description5}</p>
           </div>
         </div>
       </div>
