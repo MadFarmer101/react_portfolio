@@ -3,55 +3,81 @@
       "id": 1,
       "name": "Info",
       "image": "./src/images/info.png",
-      "description": "Janko Radakovic, 35 years old, from Croatia." 
+      "description": "Janko Radakovic",
+      "description2": "Male",
+      "description3": "03/05/1984.",
+      "description4": "Osijek, Croatia"
+      
     },
     {
       "id": 2,
       "name": "Education",
+      "year": "2003. - 2008.",
       "image": "./src/images/education.png",
-      "description": "Degree in Economics at Vern Business School in Zagreb, Croatia."
+      "description": "Bachelor's degree in Economics",
+      "description2": "Vern' Business School in Zagreb, Croatia"
+      
     },
     {
       "id": 3,
-      "name": "Coding Boot Camp",
+      "name": "Craft Academy",
+      "year": "Feb 2020. - May 2020.",
       "image": "./src/images/ca.png",
-      "description": "Learnig to code at Craft Academy in Stockholm, Sweden."
+      "description": "Coding Boot Camp",
+      "description2": "Programming languages: Ruby and JavaScript",
+      "description3": "Framework: Ruby on Rails",
+      "description4": "Library: React"
     },
     {
       "id": 4,
-      "name": "BestDeal",
+      "name": "BestDeal.hr",
+      "year": "2010. - 2012.",
       "image": "./src/images/business.png",
-      "description": "Created a site for online shopping" 
+      "description": "Manager of a Startup",
+      "description2": "A website for online shopping"
     },
     {
       "id": 5,
-      "name": "Casino Dealer",
+      "name": "Carnival Cruise Line",
+      "year": "2012. - 2017.",
       "image": "./src/images/ship.png",
-      "description": "Worked as a Casino Dealer on a Cruise Ship for Carnival Cruise Line"
+      "description": "Casino Dealer",
+      "description2": "Miami, FL, USA",
+      "description3": "Traveled the globe"
     },
     {
       "id": 6,
-      "name": "Assistant Casino Manger",
+      "name": "Casino Admiral",
+      "year": "2017. - 2018.",
       "image": "./src/images/casino.png",
-      "description": "Worked as a Assistant Manger in Casino Grand Admiral, Zadar, Croatia"
+      "description": "Assistant Casino Manager",
+      "description2": "Zadar, Croatia"
     },
     {
       "id": 7,
-      "name": "Casino Dealer",
+      "name": "Casino Cosmopol",
+      "year": "2018. - ongoing",
       "image": "./src/images/dice.png",
-      "description": "Working as a Casino Dealer at Casino Cosmopol, Stockholm, Sweden" 
+      "description": "Casino Dealer",
+      "description2": "Stockholm, Sweden"
     },
     {
       "id": 8,
       "name": "Hobbies",
       "image": "./src/images/hobby.png",
-      "description": "Fantasy"
+      "description": "Travelling",
+      "description2": "Cooking",
+      "description3": "Investment banking",
+      "description4": "NBA",
+      "description5": "Fantasy Football Premier League"
     },
     {
       "id": 9,
       "name": "Interesting Facts",
       "image": "./src/images/puzzle.png",
-      "description": "Orange belt in Judo"
+      "description": "Orange belt in Judo",
+      "description2": "Was a professional Bridge player",
+      "description3": "Want to become a Scuba diver"
     }
  
   ]

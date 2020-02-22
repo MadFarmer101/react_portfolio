@@ -9,7 +9,11 @@ describe('User can navigate the app', () => {
       });
   
       it('displays CV header', () => {
-        cy.get('#cvcard-header').should('contain', 'CV');
+        cy.get('#cvcard-header').should('contain', 'Curriculum Vitae');
+      });
+
+      it('displays an image in a CV header', () => {
+        cy.get('.image').should('exist');
       });
   
       it('displays component name in url', () => {
@@ -39,10 +43,10 @@ describe('User can navigate the app', () => {
       })
   
       it('does not display CV header ', () => {
-        cy.get('#about-header').should('not.exist');
+        cy.get('#cvcard-header').should('not.exist');
       });
   
-      it('does not display Hello world', () => {
+      it('does not display main page', () => {
         cy.get('#hello').should('not.exist');
       });
     });
