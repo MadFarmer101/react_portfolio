@@ -1,10 +1,10 @@
 import React from "react"
-import NetlifyForm from 'react-netlify-form'
+//import NetlifyForm from 'react-netlify-form'
 
 class Contact extends React.Component {
     constructor(props) {
       super(props);
-      this.state = { name: "", email: "", message: "" };
+      this.state = { name: "", email: "", message: "", company: "", phone: "" };
     }
 
 
