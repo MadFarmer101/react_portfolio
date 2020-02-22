@@ -45,28 +45,8 @@ class Projects extends Component {
 
         return (
             <div className="ui main container">
-                <div className="ui stackable two column grid">
-                    <div className="column" id="ill-projects">
-                        <UndrawCreativity primaryColor='#8b4513' height='250px' />
-                    </div>
-                    <div className="column">
-                        <h1 id="projects-header" className="ui header">My Projects</h1>
-                        <p>
-                        Here you can see a list of projects I’ve done so far. If you would like to know more about particular project, just click on the card and you can browse the projecet’s web or GitHub page. 
-                        The project cards are in chronological order, so you’ll be able to see how I’ve progressed since I started this adventure.
-                        Happy browsing...:)  
-                        </p>
-                        <button class="ui labeled icon button" onClick={start}>
-                    <i class="play icon"></i>
-                        Play
-                </button>
-                <button class="ui right labeled icon button" onClick={pause}>
-                    <i class="pause icon"></i>
-                        Pause
-                </button>
-                    </div>
-                </div>
-                <div className="ui stackable four column grid">{projectsList}</div>
+                <h1 id="projects-header" className="ui header">My Projects</h1>
+                <div className="ui stackable four column grid"><img src="./src/images/baloon.png" id="baloon"/>{projectsList}</div>
             </div>
         );
     }

@@ -2,35 +2,35 @@
     {
         "id": 1,
         "name": "BMI Calculator", 
-        "image": "./src/images/bmi.jpg",
+        "image": "./src/images/bmi.png",
         "description": "This was my first application. Please do not sue me!",
         "url": "https://madfarmer101.github.io/bmi_calculator_JavaScript/"
     },
     {
         "id": 2,
         "name": "Address Book",
-        "image": "./src/images/adb.jpg",
+        "image": "./src/images/adb.png",
         "description":"You have a lot of contacts and nowhere to put them. Here is the solution...(Just be careful not to burn your bridges, because a contact cannot be deleted)",
         "url": "https://addressbook101.netlify.com/"
     },
     {
         "id": 3,
         "name": "ATM App",
-        "image":"./src/images/atm.jpg",
+        "image":"./src/images/atm.png",
         "description":"Need some cash? Or even better, wanna deposit some cash into my super secure ATM? Please, be my guest. That is why it is here...",
         "url": "https://github.com/MadFarmer101/ATM_Challenge.git"
     },
     {
         "id": 4,
         "name": "Library App",
-        "image":"./src/images/books.jpg",
+        "image":"./src/images/books.png",
         "description":"Do you consider yourself to be a bookworm? Great! This app is for you. We have more than 3 titles to choose from... ",
         "url": "https://github.com/MadFarmer101/library-challenge.git"
     },
     {
         "id": 5,
         "name": "Blog App",
-        "image":"./src/images/blog.jpg",
+        "image":"./src/images/blog.png",
         "description":"Are you a struggling writer? With this state of the art Blog App you can struggle even more...",
         "url": "https://github.com/MadFarmer101/AUT_challenge.git"
     }

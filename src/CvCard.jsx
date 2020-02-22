@@ -3,7 +3,7 @@ import React from "react";
 const CvCard = ({ info }) => {
   return (
     <>
-      <div id="cvcards" class="ui card">
+      <div id="cards" class="ui card">
         <div class="ui slide masked reveal image">
           <img src={info.image} class="visible content" />
           <div class="hidden content">
