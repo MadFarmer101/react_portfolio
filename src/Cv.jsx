@@ -34,10 +34,7 @@ render() {
     return (
         <div className="ui main container">
             <h1 id="cvcard-header" className="ui header">Curriculum Vitae</h1>
-            <div className="column">
-              <img src="./src/images/astro.png" id="astro"/>
-            </div>
-            <div className="ui stackable four column grid">{cvCardsList}</div>
+            <div className="ui stackable four column grid"><img src="./src/images/astro.png" id="astro"/>{cvCardsList}</div>
         </div>
     );
 }
