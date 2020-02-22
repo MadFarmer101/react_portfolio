@@ -8,6 +8,7 @@ const CvCard = ({ info }) => {
           <img src={info.image} class="visible content" />
           <div class="hidden content">
             <h3 id="cvheader" class="ui header">{info.name}</h3>
+            <span id="cvyear" class="date">{info.year}</span>
             <p id="cvdescription" class="description">{info.description}</p>
           </div>
         </div>

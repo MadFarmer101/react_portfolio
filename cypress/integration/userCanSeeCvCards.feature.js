@@ -16,6 +16,7 @@ describe('User can see list of education and job experience', () => {
       cy.get('#info-2').within(() => {
         cy.get(('.image')).should('exist');
         cy.get('.ui.header').should('contain', 'Education');
+        cy.get('.date').should('contain', '2003. - 2008.');
         cy.get('.description').should('contain', 'Degree in Economics at Vern Business School in Zagreb, Croatia.');
       })
     });
@@ -24,6 +25,7 @@ describe('User can see list of education and job experience', () => {
         cy.get('#info-3').within(() => {
           cy.get(('.image')).should('exist');
           cy.get('.ui.header').should('contain', 'Coding Boot Camp');
+          cy.get('.date').should('contain', 'Feb 2020. - May 2020.');
           cy.get('.description').should('contain', "Learnig to code at Craft Academy in Stockholm, Sweden.");
         })
       });
@@ -32,6 +34,7 @@ describe('User can see list of education and job experience', () => {
       cy.get('#info-4').within(() => {
         cy.get(('.image')).should('exist');
         cy.get('.ui.header').should('contain', 'BestDeal');
+        cy.get('.date').should('contain', '2010. - 2012.');
         cy.get('.description').should('contain', "Created a site for online shopping");
       })
     }); 
@@ -40,6 +43,7 @@ describe('User can see list of education and job experience', () => {
         cy.get('#info-5').within(() => {
           cy.get(('.image')).should('exist');
           cy.get('.ui.header').should('contain', 'Casino Dealer');
+          cy.get('.date').should('contain', '2012. - 2017.');
           cy.get('.description').should('contain', "Worked as a Casino Dealer on a Cruise Ship for Carnival Cruise Line");
         })
       });
@@ -48,6 +52,7 @@ describe('User can see list of education and job experience', () => {
         cy.get('#info-6').within(() => {
           cy.get(('.image')).should('exist');
           cy.get('.ui.header').should('contain', 'Assistant Casino Manger');
+          cy.get('.date').should('contain', '2017. - 2018.');
           cy.get('.description').should('contain', "Worked as a Assistant Manger in Casino Grand Admiral, Zadar, Croatia");
         })
       });
@@ -56,6 +61,7 @@ describe('User can see list of education and job experience', () => {
         cy.get('#info-7').within(() => {
           cy.get(('.image')).should('exist');
           cy.get('.ui.header').should('contain', 'Casino Dealer');
+          cy.get('.date').should('contain', '2018. - ongoing');
           cy.get('.description').should('contain', "Working as a Casino Dealer at Casino Cosmopol, Stockholm, Sweden");
         })
       });

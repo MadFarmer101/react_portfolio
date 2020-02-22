@@ -8,36 +8,42 @@
     {
       "id": 2,
       "name": "Education",
+      "year": "2003. - 2008.",
       "image": "./src/images/education.png",
       "description": "Degree in Economics at Vern Business School in Zagreb, Croatia."
     },
     {
       "id": 3,
       "name": "Coding Boot Camp",
+      "year": "Feb 2020. - May 2020.",
       "image": "./src/images/ca.png",
       "description": "Learnig to code at Craft Academy in Stockholm, Sweden."
     },
     {
       "id": 4,
       "name": "BestDeal",
+      "year": "2010. - 2012.",
       "image": "./src/images/business.png",
       "description": "Created a site for online shopping" 
     },
     {
       "id": 5,
       "name": "Casino Dealer",
+      "year": "2012. - 2017.",
       "image": "./src/images/ship.png",
       "description": "Worked as a Casino Dealer on a Cruise Ship for Carnival Cruise Line"
     },
     {
       "id": 6,
       "name": "Assistant Casino Manger",
+      "year": "2017. - 2018.",
       "image": "./src/images/casino.png",
       "description": "Worked as a Assistant Manger in Casino Grand Admiral, Zadar, Croatia"
     },
     {
       "id": 7,
       "name": "Casino Dealer",
+      "year": "2018. - ongoing",
       "image": "./src/images/dice.png",
       "description": "Working as a Casino Dealer at Casino Cosmopol, Stockholm, Sweden" 
     },
