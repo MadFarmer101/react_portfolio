@@ -1,10 +1,20 @@
 import React, { Component } from "react";
+import axios from "axios";
 
 
 class Cv extends Component {
     state = {
         cvcards: []
     };
+
+componentDidMount() {
+    axios.get('./src/data/cvcards.json')
+        .then(response => {
+            this.setState({
+              cvcards: response.data
+            })
+        })
+}
 
 render() {
     const cvcards = this.state.cvcards;
