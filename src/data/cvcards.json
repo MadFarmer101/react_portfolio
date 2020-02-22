@@ -3,18 +3,55 @@
       "id": 1,
       "name": "Info",
       "image": "./src/images/info.png",
-      "description": "Janko Radakovic"
+      "description": "Janko Radakovic, 35 years old, from Croatia." 
     },
     {
       "id": 2,
-      "name": "UI Design",
-      "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-      "description": "Designing user interfaces is fun. I want to learn more about that..."
+      "name": "Education",
+      "image": "./src/images/education.png",
+      "description": "Degree in Economics at Vern Business School in Zagreb, Croatia."
     },
     {
       "id": 3,
-      "name": "Mobile UX",
-      "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-      "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+      "name": "Coding Boot Camp",
+      "image": "./src/images/ca.png",
+      "description": "Learnig to code at Craft Academy in Stockholm, Sweden."
+    },
+    {
+      "id": 4,
+      "name": "BestDeal",
+      "image": "./src/images/business.png",
+      "description": "Created a site for online shopping" 
+    },
+    {
+      "id": 5,
+      "name": "Casino Dealer",
+      "image": "./src/images/ship.png",
+      "description": "Worked as a Casino Dealer on a Cruise Ship for Carnival Cruise Line"
+    },
+    {
+      "id": 6,
+      "name": "Assistant Casino Manger",
+      "image": "./src/images/casino.png",
+      "description": "Worked as a Assistant Manger in Casino Grand Admiral, Zadar, Croatia"
+    },
+    {
+      "id": 7,
+      "name": "Casino Dealer",
+      "image": "./src/images/dice.png",
+      "description": "Working as a Casino Dealer at Casino Cosmopol, Stockholm, Sweden" 
+    },
+    {
+      "id": 8,
+      "name": "Hobbies",
+      "image": "./src/images/hobby.png",
+      "description": "Fantasy"
+    },
+    {
+      "id": 9,
+      "name": "Interesting Facts",
+      "image": "./src/images/puzzle.png",
+      "description": "Orange belt in Judo"
     }
+ 
   ]

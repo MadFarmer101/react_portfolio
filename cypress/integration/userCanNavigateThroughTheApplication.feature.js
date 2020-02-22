@@ -3,18 +3,18 @@ describe('User can navigate the app', () => {
       cy.visit('http://localhost:3000');
     })
   
-    describe('to About tab and it', () => {
+    describe('to CV tab and it', () => {
       beforeEach(() => {
         cy.get('#about-tab').click();
       });
   
-      it('displays About Me header', () => {
-        cy.get('#about-header').should('contain', 'About Me');
+      it('displays CV header', () => {
+        cy.get('#cvcard-header').should('contain', 'CV');
       });
   
       it('displays component name in url', () => {
-        cy.url().should("contain", "about");
-      })
+        cy.url().should("contain", "cv");
+      });
   
       it('does not display My Projects header ', () => {
         cy.get('#projects-header').should('not.exist');
@@ -38,7 +38,7 @@ describe('User can navigate the app', () => {
         cy.url().should("contain", "projects");
       })
   
-      it('does not display About Me header ', () => {
+      it('does not display CV header ', () => {
         cy.get('#about-header').should('not.exist');
       });
   
@@ -60,11 +60,11 @@ describe('User can navigate the app', () => {
       it('displays correct url', () => {
         cy.url()
           .should("not.contain", "projects")
-          .and("not.contain", "about");    
+          .and("not.contain", "cv");    
       })
   
-      it('does not display About Me header ', () => {
-        cy.get('#about-header').should('not.exist');
+      it('does not display CV header ', () => {
+        cy.get('#cvcards-header').should('not.exist');
       });
   
       it('does not display My Projects header', () => {
