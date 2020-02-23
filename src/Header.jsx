@@ -11,7 +11,7 @@ const Header = () => {
             <div className="right menu">
             <div className="ui inverted secondary pointing menu">
                 <NavLink
-                    id="about-tab"
+                    id="cv-tab"
                     className="ui item"
                     activeStyle={{ fontWeight: "bold" }}
                     to="/cv"

@@ -1,7 +1,7 @@
 describe('User can see list of education and job experience', () => {
     beforeEach(() => {
       cy.visit('http://localhost:3000');
-      cy.get('#about-tab').click();
+      cy.get('#cv-tab').click();
     })
   
     it('displays info', () => {

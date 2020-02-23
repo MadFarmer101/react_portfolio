@@ -5,7 +5,7 @@ describe('User can navigate the app', () => {
   
     describe('to CV tab and it', () => {
       beforeEach(() => {
-        cy.get('#about-tab').click();
+        cy.get('#cv-tab').click();
       });
   
       it('displays CV header', () => {
@@ -37,6 +37,10 @@ describe('User can navigate the app', () => {
       it('displays My Projects header', () => {
         cy.get('#projects-header').should('contain', 'My Projects');
       });
+
+      it('displays an image in a My Projects header', () => {
+        cy.get('.image').should('exist');
+      });
   
       it('displays component name in url', () => {
         cy.url().should("contain", "projects");
@@ -53,7 +57,7 @@ describe('User can navigate the app', () => {
   
     describe('back to My Portfolio/Hello tab and it',() => {
       beforeEach(() => {
-        cy.get('#about-tab').click();
+        cy.get('#cv-tab').click();
         cy.get('#header').click();
       });
   
