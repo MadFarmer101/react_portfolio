@@ -69,7 +69,7 @@
       "description2": "Cooking",
       "description3": "Investment banking",
       "description4": "NBA",
-      "description5": "Fantasy Football Premier League"
+      "description5": "Fantasy Premier League"
     },
     {
       "id": 9,
@@ -77,7 +77,7 @@
       "image": "./src/images/puzzle.png",
       "description": "Orange belt in Judo",
       "description2": "Was a professional Bridge player",
-      "description3": "Want to become a Scuba diver"
+      "description3": "Won a CSC Award for a best Advertising Campaign in 2009."
     }
  
   ]
