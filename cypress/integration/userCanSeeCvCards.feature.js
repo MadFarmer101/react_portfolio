@@ -87,7 +87,7 @@ describe('User can see list of education and job experience', () => {
           cy.get('.description').should('contain', "Cooking");
           cy.get('.description').should('contain', "Investment banking");
           cy.get('.description').should('contain', "NBA");
-          cy.get('.description').should('contain', "Fantasy Football Premier League");
+          cy.get('.description').should('contain', "Fantasy Premier League");
         })
       });
 
@@ -97,7 +97,7 @@ describe('User can see list of education and job experience', () => {
           cy.get('.ui.header').should('contain', 'Interesting Facts');
           cy.get('.description').should('contain', "Orange belt in Judo");
           cy.get('.description').should('contain', "Was a professional Bridge player");
-          cy.get('.description').should('contain', "Want to become a Scuba diver");
+          cy.get('.description').should('contain', "Won a CSC Award for a best Advertising Campaign in 2009.");
         })
       });
   });
