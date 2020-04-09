@@ -9,7 +9,7 @@ React v.16.12.0, CSS
 **Deployed at:** [Netlify](https://portfolio101.netlify.com) 
 
 ## The code   
-This application is my Portfolio, where you can see my CV and the projects I've done so far.
+This application is my Portfolio. where you can see my CV and the projects I've done so far. For a full enjoyment make sure to press the note icon on the home page.
 
 ## Getting started
 ### Dependencies  
