@@ -33,5 +33,68 @@
         "image":"./src/images/blog.png",
         "description":"Are you a struggling writer? With this state of the art Blog App you can struggle even more...",
         "url": "https://github.com/MadFarmer101/AUT_challenge.git"
+    },
+    {
+        "id": 6,
+        "name": "BMI Calculator 2.0",
+        "image":"./src/images/bmi2.png",
+        "description":"Not happy with your BMI results from a previous project? Try it again! This one I built in React. Amazing thing is that you can calculate your BMI using imperial method as well as mertic one. Your choice.",
+        "url": "https://bmi-hunter-janko.netlify.app/"
+    },
+    {
+        "id": 7,
+        "name": "Cooper Test",
+        "image":"./src/images/cooper.png",
+        "description":"The ever popular Cooper Test. You just have to run, enter the distance in meters and get your results. Easy peasy! Oh, and register an account so you can save your performance data and view the past entries displayed on a graph.  ",
+        "url": "https://cooper-test-hunter-janko.netlify.app/"
+    },
+    {
+        "id": 8,
+        "name": "Slowfood Restaurant",
+        "image":"./src/images/food.png",
+        "description":"Got hungry from all the running? No problemo! Order something from a world famous Janko's Burgers and Pizza restaurant. Bon apetit!",
+        "url": "https://slowfood-challenge-team-4.netlify.app/"
+    },
+    {
+        "id": 9,
+        "name": "Tippler - Cocktails app",
+        "image":"./src/images/cocktails.png",
+        "description":"Fancy a drink after a nice meal! We got just the thing. In this app you can search for your favorite cocktail, get the instructions on how to make it and find info about the alchoholic beverage from that cocktail in System Bolaget.",
+        "url": "https://tippler-team1.netlify.app/"
+    },
+    {
+        "id": 10,
+        "name": "Rock Paper Scissors",
+        "image":"./src/images/rps.png",
+        "description":"Oh, it's on! The one and only: Rock, Paper and Scissors game. Choose wisely! Enjoy!",
+        "url": "https://rock-paper-scissors101.netlify.app/"
+    },
+    {
+        "id": 11,
+        "name": "The Mars Times",
+        "image":"./src/images/news.png",
+        "description":"Sick and tired from all the bad news on this planet? We got just a thing - The Mars Times! A first news portal on Mars.",
+        "url": "https://themarstimes.netlify.app/"
+    },
+    {
+        "id": 12,
+        "name": "Editorial - The Mars Times",
+        "image":"./src/images/journalist.png",
+        "description":"Got all excited abot news from Mars and want to contribute? Great! Go to our editorial site and start writting your own Spacy News. Use email: 'journalist@mail.com', password: 'password'. ",
+        "url": "https://admin-marstimes.netlify.app/"
+    },
+    {
+        "id": 13,
+        "name": "The Mars Times - Mobile App",
+        "image":"./src/images/mobile.png",
+        "description":"Yes, the rumours are true! Now you can read all your favorite Mars news on your phone. Built with Ionic.",
+        "url": "https://github.com/MadFarmer101/newsroom_3_mobile_app"
+    },
+    {
+        "id": 14,
+        "name": "Helping Hand",
+        "image":"./src/images/help.png",
+        "description":"Helping Hand is an app that connects people in need with volunteers to do their shoping.",
+        "url": "https://helpinghandproject.netlify.app/"
     }
 ]
