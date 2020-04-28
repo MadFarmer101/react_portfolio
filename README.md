@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f1bef35b-d1b8-4065-bd3c-130e67fedb3d/deploy-status)](https://app.netlify.com/sites/rock-paper-scissors101/deploys)
 
-# RPS Challenge
+# Portfolio Challenge
 ### Author   
 [Janko Radakovic](https://github.com/MadFarmer101/React_Portfolio.git)
 ## Built with  
